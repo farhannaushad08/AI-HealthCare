@@ -12,6 +12,24 @@ It demonstrates understanding of:
 
 It forms the foundation for upcoming exploration of **ITK**, **VTK**, and **Scikit-Surgery** for 3D reconstruction, segmentation, and surgical simulation.
 
+## Jupyter / Colab Notebook
+
+### Introduction  
+This notebook — **`Pydicom.ipynb`** — documents my learning journey with the pydicom library for working with DICOM (Digital Imaging and Communications in Medicine) files.  
+DICOM is the global standard format for storing and transmitting medical imaging data such as MRI, CT, and X-ray scans.
+
+Through this notebook, I explore how to:  
+- Read and inspect DICOM metadata  
+- Display medical images  
+- Modify and anonymize patient information  
+- Save and export DICOM files
+
+### Notebook Access  
+You can view or run the notebook interactively on Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/farhannaushad08/AI-HealthCare/blob/main/Pydicom/Pydicom.ipynb)
+
+
 ## Features
 -  Open single or multiple DICOMs  
 - Apply **region-specific HU presets** (Brain, Lung, Bone, etc.)  
