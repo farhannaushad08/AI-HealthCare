@@ -20,7 +20,7 @@ class DicomViewer(QMainWindow):
 
         # Window setup
         self.setWindowTitle("DICOM PyQt Edition")
-        self.setGeometry(100, 100, 1000, 900)
+        self.setGeometry(200,200, 1000, 900)
 
         # Globals
         self.dicom_files = []
@@ -61,7 +61,7 @@ class DicomViewer(QMainWindow):
         self.image_label = QLabel()
         self.image_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         # set a preferred fixed display area for consistent scaling
-        self.image_label.setMinimumSize(600, 600)
+        self.image_label.setMinimumSize(200, 200)
         self.image_label.setMaximumSize(1000, 1000)
         self.layout.addWidget(self.image_label)
         self.show_placeholder()
